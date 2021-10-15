@@ -1,3 +1,36 @@
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("agradecimento"));
+};
+
+function redirecionar(){
+    window.open("https://www.linkedin.com/feed/");
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML ="Texto novo para aprender essa porra"
+    elemento.innerHTML ="Texto novo para aprender essa porra"
+};
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML ="Passe o mouse aqui"
+    elemento.innerHTML ="Passe o mouse aqui"
+}
+
+function load(){
+    alert("pagina carregada");
+}
+
+function mudando(elemento){
+    alert(elemento.value);
+}
+
+
+
+
+
+
+
 /*
 var frutas = [{nome:"maça", cor:"vermelho"},{nome:"uva", cor:"verde"} ];
 console.log(frutas);
@@ -83,7 +116,7 @@ function replace1 (frase, nome, novonome){
 
 alert (replace1("vai japão","japão", "brasil"));
 
-*/
+
 
 function validaidade (idade){
     var validar;
@@ -106,5 +139,7 @@ function validaidade (idade){
         console.log("menor de idade")
     };
     
+
+*/
 
 
